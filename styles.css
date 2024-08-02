@@ -58,6 +58,7 @@
     align-items: center;
     justify-content: center;
     padding: 1.8rem;
+    background-color: (90deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
 
 .hijack{
@@ -238,4 +239,92 @@
 .gamble .dirtycam:hover{
     font-size: larger;
     color: #000;
+}
+
+body{
+    background-image: url(Photoroom_20240522_011508.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        color: transparent;
+        background: transparent;
+    }
+
+    .nav-container a{
+        font-size: 1.5rem;
+    }
+    .nav-container{
+        background-color: #619393;
+    }
+
+    body {
+    background-image:none;
+    background-color: transparent ;
+    }
+
+    .header h1{
+        margin: 0 auto;
+        width: 500px;
+        text-align: center;
+    }
+
+    .header p{
+        color: #000;
+        font-size: 2rem;
+        margin: 0 auto;
+        width: 500px;
+        text-align: center;
+    }
+
+    .stuff-items a{
+        font-size: 2rem;
+        margin: 0 auto;
+        width: 500px;
+        text-align: center;
+    }
+
+    .stuff-items p{
+        text-align: left;
+    }
+
+    .header .ood{
+        font-size: 1.5rem;
+    }
+
+    .header .evil{
+        color: #caf0ff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .martin-handsome{
+        width: 10%;
+        height: 10%;
+    }
+
+    .martin-handsome p{
+        position:absolute;
+        z-index: 999;
+        color: #000;
+        z-index: 999;
+    }
+
+    h2 {
+        color: #000;
+        position: absolute;
+        margin-bottom: 30rem;
+    }
+
 }
